@@ -4,14 +4,14 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>lesson 8</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
 	<div class="container">
         <!-- Color Palette Section -->
-        <div class="palette-section">
-            <div class="palette-title">Color Palette</div>
-            <div class="color-palette">
+        <div class="color-palette-section">
+            <div class="color-palette-title">Color Palette</div>
+            <div class="color-boxes">
                 <div class="color-box color-red"></div>
                 <div class="color-box color-cyan"></div>
                 <div class="color-box color-orange"></div>
@@ -20,42 +20,67 @@
             </div>
         </div>
 
-        <!-- Main Section -->
-        <div class="main-section">
-            <h1 class="section-title">Reliable, efficient delivery</h1>
-            <p class="section-subtitle">Powered by Technology</p>
-            <p class="section-description">
-                Our Artificial Intelligence powered tools use millions of project data points to ensure that your project is successful.
-            </p>
-
-            <!-- Feature Cards -->
-            <div class="features">
-                <div class="feature-card">
-                    <div class="feature-title">Supervisor</div>
-                    <div class="feature-icon">🔍</div>
-                    <p class="feature-description">
-                        Manage all your tasks to identify problem fast
-                    </p>
+        <!-- Main Layout -->
+        <div class="main-layout">
+            <!-- Desktop Section -->
+            <div class="desktop-section">
+                <div class="section-label">Desktop</div>
+                
+                <div class="hero-text">
+                    <h2>Reliable, efficient delivery</h2>
+                    <h1>Powered by Technology</h1>
+                    <p>Our Artificial Intelligence powered tools use millions of project data<br>points to ensure that your project is successful</p>
                 </div>
 
-                <div class="feature-card">
-                    <div class="feature-title">Team Builder</div>
-                    <div class="feature-icon">👥</div>
-                    <p class="feature-description">
-                        Optimize team performance your project
-                    </p>
-                </div>
+                <div class="feature-cards">
+                    <div class="feature-card card-supervisor">
+                        <h3>Supervisor</h3>
+                        <p>Monitors activity to identify project<br>roadblocks</p>
+                        <div class="icon-search"></div>
+                    </div>
 
-                <div class="feature-card">
-                    <div class="feature-title">Calculator</div>
-                    <div class="feature-icon">💰</div>
-                    <p class="feature-description">
-                        Better delivery estimates
-                    </p>
+                    <div class="feature-card card-team-builder">
+                        <h3>Team Builder</h3>
+                        <p>Scans our talent network to create the<br>optimal team for your project</p>
+                        <div class="icon-team"></div>
+                    </div>
+
+                    <div class="feature-card card-calculator">
+                        <h3>Calculator</h3>
+                        <p>Uses data from past projects to provide<br>better delivery estimates</p>
+                        <div class="icon-calculator"></div>
+                    </div>
                 </div>
             </div>
 
-            
+            <!-- Mobile Section -->
+            <div class="mobile-section">
+                <div class="section-label">Mobile</div>
+                
+                <div class="hero-text">
+                    <h2>Reliable, efficient delivery</h2>
+                    <h1>Powered by Technology</h1>
+                    <p>Our Artificial Intelligence powered tools<br>use millions of project data points to<br>ensure that your project is successful</p>
+                </div>
+
+                <div class="mobile-feature-card card-supervisor">
+                    <h3>Supervisor</h3>
+                    <p>Monitors activity to identify project<br>roadblocks</p>
+                    <div class="icon-search"></div>
+                </div>
+
+                <div class="mobile-feature-card card-team-builder">
+                    <h3>Team Builder</h3>
+                    <p>Scans our talent network to create the<br>optimal team for your project</p>
+                    <div class="icon-team"></div>
+                </div>
+
+                <div class="mobile-feature-card card-calculator">
+                    <h3>Calculator</h3>
+                    <p>Uses data from past projects to provide<br>better delivery estimates</p>
+                    <div class="icon-calculator"></div>
+                </div>
+            </div>
         </div>
     </div>
 </body>
